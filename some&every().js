@@ -13,3 +13,10 @@ const ary = [01,10,23,45,63,43,65,84];
 
 let test = ary.some( x => x > 70 );
 console.log(test);
+
+
+// lets practice them with implicet function expressions
+
+function allEvens(num){
+  return num.every( x => x % 2 === 0);
+}
