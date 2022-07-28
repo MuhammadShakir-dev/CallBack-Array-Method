@@ -64,3 +64,10 @@ const Movies = [
     })
     
     console.log(topMovies);
+   
+    console.log(topMovies);
+    
+    console.log("Top Score Movies Namez");
+    const topTitle = Movies.filter( z => z.score > 9.4).map(z => z.name);
+    
+    console.log(topTitle);
